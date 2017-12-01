@@ -11,3 +11,5 @@ This week, I added the background video and wrote the text for every page.
 I then attached the charts and images and used javascript to create a button that would allow me to move through the material upon user action. I used my css from last week while making drastic changes in order to allow the material to be pleasantly viewed. 
 
 I chose not to change my chart information but to make the paragraphs more clear so that the user understands that the purpose of this web app is to find out who to watch for Team USA not who to watch in the world. However, I understand that is of general interest so I wrote a bit about that to provide clarity. Next week, I will continue to fine tune so that users will understand exactly what they are getting with this information.
+
+Due to my current status on this assignment, I will be adding the sounds to the page next week and working on the information flow over all. However, the majority of the heavy lifting on this project is done. I am very ahead of schedule and have found great enjoyment in this project. Thank you so much for all of the help and encouragement I have gotten up to this point.
