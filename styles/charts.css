@@ -1,57 +1,138 @@
-h1 {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-}
-
 body {
-  background: #e8f2f2;
+  background: #C4CED6;
   font-family: 'Raleway', sans-serif;
   color: #000;
-  margin: 2em;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
 }
-p {
-  padding-left:.2em;
-  padding-right: 20em;
-}
-#source{
-  font-size: 12px;
-}
-
-#femalechart {
-  width: 65%;
-  height: 400px;
-}
-
-#malechart {
-  width:65%;
-  height: 400px;
-}
-
-#pairschart {
-  width:65%;
-  height: 400px;
-}
-
-#dancerchart {
-  width:65%;
-  height: 400px;
-}
-
 a {
-  font-family: 'Raleway', sans-serif;
-  color: #0000ff;
+  color:#000;
 }
+
+background_1 {
+  position:absolute;
+  background-color:rgba(0,0,0,0.5);
+  top:0;
+  bottom:0;
+  height:100%;
+  width:100%;
+  z-index:1;
+}
+video{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  min-width:100%;
+  min-height:100%;
+  width:auto;
+  height:auto;
+}
+.top_title {
+  z-index:2;
+  position:relative;
+  background:000;
+  color:#fff;
+  font-size:30px;
+  font-weight:3000;
+  padding-left:1em;
+  padding-top:1em;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+#textbox {
+  z-index:2;
+  position:relative;
+  font-size: 12px;
+  font-weight:100;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin-top:2rem;
+  margin-left:4rem;
+  float: left;
+  font-size: 1.2rem;
+}
+
+#next {
+    position: absolute;
+    top: 85%;
+    right: 5%;
+    z-index: 3;
+}
+#intro_pic{
+  z-index: 2;
+  position:relative;
+  margin-top:68px;
+  margin-left:95px;
+  width:600px;
+  height:400px;
+}
+#visual{
+  z-index:2;
+  position:absolute;
+  top:10%;
+  right: 60%;
+  width:.5%;
+  height:20px;
+
+}
+
+#female_chart {
+  z-index: 2;
+  position:relative;
+  margin-top:68px;
+  margin-left:95px;
+  width:600px;
+  height:400px;
+}
+
+#male_chart {
+  z-index: 2;
+  position:relative;
+  margin-top:68px;
+  margin-left:95px;
+  width:600px;
+  height:400px;
+}
+
+#pairs_chart {
+  z-index: 2;
+  position:relative;
+  margin-top:68px;
+  margin-left:95px;
+  width:600px;
+  height:400px;
+}
+
+#dancer_chart {
+  z-index: 2;
+  position:relative;
+  margin-top:68px;
+  margin-left:95px;
+  width:600px;
+  height:400px;
+}
+
+/* end of page css*/
 
 @media screen and (max-width: 800px) {
   p {
   margin: 0px;
   padding: 0px;
 }
-#container{
+#intro{
   width: 100%;
   height:400px;
 }
-#barchart{
+.text{
   width: 100%;
   height:400px;
 }
