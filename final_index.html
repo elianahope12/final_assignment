@@ -8,7 +8,6 @@
   <link href="styles/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="styles/charts.css">
 </head>
-
 <body>
 
 <div class="background_1">
@@ -20,16 +19,30 @@
 </div>
 
 <!--intro-->
-<div id="textbox">
+<div class="container">
+<div class="row">
+
+<div id="textbox" class="col-sm-4">
 <p id="intro">
   Figure Skating is a very popular winter olympic sport. Countries around the world are aiming to guarantee that the best athletes arrive on the world stage in February. The rankings are decided by The International Skating Union (ISU), using the total points of skaters from their past three seasons. This scoring system is difficult to understand at a first glance, but a more in depth overview can be found <a href=http://www.isu.org/communications/1625-1629-world-standing-sandp-id/file>here.</a> If you are interested in meeting the top skaters attempting to mae Team USA in 2018 click NEXT.</p>
 </div>
 
+<button id="back">Back</button>
 <button id="next">Next</button>
-<div id="visual">
+
+<div id="sound">
+<audio controls>
+  <source src="stock/sound.ogg" type="audio/ogg">
+  <source src="stock/sound.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<div id="visual" class=col-sm-6>
 <img id="intro_pic" src="images/rink_large.png" alt="Women's Singles Skater">
 </div>
 
+</div><!--row-->
+</div> <!--bootstrap div-->
 <!--female-->
 <p id="female_singles">
   Today, Team USA is watching American skaters closely in order to finalize the roster before February. The three women with the highest scores during the 2017-18 season are shown in this chart. These are the names you will need to keep an eye on, heading into the 2018 Olympics.
@@ -63,16 +76,14 @@ Ice Dancing is the least popular event among Olympic viewers. The slower and mor
    </div>
 
    <!--conclusion-->
-<p id="last">
-  the end.
-</p>
-    <div id="not_visual">
-    <img id="last_pics" src="images/ashley.jpg" alt="Women's Singles Skater">
-    <img id="last_pics" src="images/adam.jpg" alt="Men's Singles Skater">
-    <img id="last_pics" src="images/pairs_wide.jpg" alt="Pairs Skaters">
-    <img id="last_pics" src="images/olympic.jpg" alt="Women's Singles Skater">
-    </div>
 
+<p id="last">
+  The 2018 Winter Games are right around the corner. Hopefully, you will feel familiar with Team USA by the opening ceremonies.
+
+  License attribution:
+  <a href="https://www.flickr.com/photos/queenyuna/4869128264/in/photolist-8qgycj-nsfh1n-9D2MTo-8H4JiN-aVDys2-chTYUG-91RPem-9CXFdu-9D2ZxE-qnQrf9-khaCQS-bkyQtb-khazSC-nPKczZ-9bStEy-nPdBuC-nX4AaH-9krPnF-dsuCq7-rkJrza-9z55Pf-nuTX7n-9D2Tvf-nJerYt-9DfXY2-9CZ4NK-chTNEG-9CXEZN-9gduyD-92PeLx-nMGvwk-9rGQEV-bytJLi-8UFSBT-9iVDuJ-chTMv3-95LRb5-9osiMV-9b7ymE-khawP3-k4JNaW-9D2N45-9acBRd-qo7k9Z-9HMVcA-8xNKds-8E2mVW-kkG9sD-8qduXK-dPanFY">First Image, </a>
+  <a href="https://www.flickr.com/photos/queenyuna/9104729318/in/photolist-eSy7PG-dxo2dg-bkyE4D-bkyZQe-bkyCYR-dxo2tD-bkyCni-dxtt5N-bkyDuB-bkys8B-dxttsE-dxtt7s-bkyyRk-bkyECD-bkyQpa-bkyA58-bkyFgD-bkyBSk-bkyRMZ-bkyWV8-bkyzqM-bkymDR-bkz1HZ-bkyPBV-bkyLWt-bkyhqH-bkyi9c-bkykT8-de88Ld-cGk1vq-eUsXQs-HWmkj4-8y32yB-HMCBhA-smUPN4-bkyjAc-bkyrma-bkyuFi-bkyiRF-bkykdP-bkyBgg-bkyvWT-bkyvhK-bkycN8-bkyx6M-bkyxB4-bkywwK-bkyKHR-bkyGWK-bkyKfi">Second Image</a>
+</p>
 
 <!--java scripts -->
 <!--highcharts links-->
