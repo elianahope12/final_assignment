@@ -7,9 +7,12 @@ charts.css is my only css document
 
 script.js is where my highcharts are living and also where my javascript click and switch functions are living as well.
 
-This week, I added the background video and wrote the text for every page. 
-I then attached the charts and images and used javascript to create a button that would allow me to move through the material upon user action. I used my css from last week while making drastic changes in order to allow the material to be pleasantly viewed. 
+This week, I followed Ryan's comment from last week and added a "Back" button in Javascript. This was exceptionally challenging. I also organized the audio player and made it a functional part of the page. I have been working on the responsiveness for mobile for a very long time. You can see some of it in my html but it is not working the way I would like. I am confused and do not understand why not. 
 
-I chose not to change my chart information but to make the paragraphs more clear so that the user understands that the purpose of this web app is to find out who to watch for Team USA not who to watch in the world. However, I understand that is of general interest so I wrote a bit about that to provide clarity. Next week, I will continue to fine tune so that users will understand exactly what they are getting with this information.
+https://v4-alpha.getbootstrap.com/layout/grid/ I am working with this instruction, specifcally under the "stacked to horizontal" section. Any comments or help would be greatly appreciated. 
 
-Due to my current status on this assignment, I will be adding the sounds to the page next week and working on the information flow over all. However, the majority of the heavy lifting on this project is done. I am very ahead of schedule and have found great enjoyment in this project. Thank you so much for all of the help and encouragement I have gotten up to this point.
+I know if I can get it to work for one grouping of text and visuals, I will be able to get it to work for the rest pretty easily. This first step is just really throwing a wrench in my plans to work through this approved for mobile idea. 
+
+Additionally, I think I may have to leave the video background behind on mobile which I have been thinking about for weeks but was hoping I would crack the code on before I had to. 
+
+(IF I sound bummed out it is because I am. This bootstrap has taken a year or two off of my life but I am very hopeful it will come to a happy end soon.)
