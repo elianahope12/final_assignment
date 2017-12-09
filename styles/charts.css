@@ -38,7 +38,6 @@ video{
   background:000;
   color:#fff;
   font-size:30px;
-  font-weight:3000;
   padding-left:1em;
   padding-top:1em;
   top:0;
@@ -151,3 +150,29 @@ video{
     video { display:none; }
 
 }
+@media (max-width:800px){
+
+  .background_1{
+    max-width: 300px;
+  }
+
+  #textbox{
+    margin-left:15px;
+    width:100%;
+  }
+   #intro_pic{
+     margin-left:10px;
+     width:100%;
+   }
+
+   #visual{
+     position:relative;
+     left:.5%;
+     width:100%;
+   }
+   #next{
+     position:absolute;
+     top:900px;
+     left:30%;
+   }
+ }
