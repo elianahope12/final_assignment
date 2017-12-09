@@ -10,6 +10,7 @@
 </head>
 <body>
 
+
 <div class="background_1">
  <video poster="images/skating.jpg"  autoplay="true" loop>
    <source src="stock/skating.mp4"  type="video/mp4">
@@ -19,31 +20,41 @@
 </div>
 
 <!--intro-->
+<div class="container-fluid">
+<div class="row">
 
-<div class="row justify-content-start">
-
-<div id="textbox" class="col-sm-4">
+<div class="col-xs-6">
+<div id="textbox">
 <p id="intro">
   Figure Skating is a very popular winter olympic sport. Countries around the world are aiming to guarantee that the best athletes arrive on the world stage in February. The rankings are decided by The International Skating Union (ISU), using the total points of skaters from their past three seasons. This scoring system is difficult to understand at a first glance, but a more in depth overview can be found <a href=http://www.isu.org/communications/1625-1629-world-standing-sandp-id/file>here.</a> If you are interested in meeting the top skaters attempting to mae Team USA in 2018 click Next.
 </p>
-</div>
-</div><!--row 1-->
-<div class="row justify-content-end">
-<button id="back" class="col-sm-6">Back</button>
-<button id="next" class="col-sm-6">Next</button>
+</div><!--textbox-->
+</div> <!--col div-->
 
-<div id="sound" class="col-sm-6">
+
+
+<div class="col-xs-6">
+<button id="back">Back</button>
+<button id="next">Next</button>
+</div><!--end of button col-->
+
+
+<div class="col-xs-6">
+<div id="sound">
 <audio controls>
   <source src="stock/sound.ogg" type="audio/ogg">
   <source src="stock/sound.mp3" type="audio/mpeg">
 </audio>
-</div>
+</div><!--end of sound-->
+</div><!--end of button col-->
 
-<div id="visual" class="col-sm-6">
+<div class="col-xs-6">
+<div id="visual">
 <img id="intro_pic" src="images/rink_large.png" alt="Women's Singles Skater">
 </div>
 
-</div><!--row 2-->
+</div><!--col div-->
+</div><!--row 1-->
 
 <!--female-->
 <p id="female_singles">
@@ -94,6 +105,6 @@ Ice Dancing is the least popular event among Olympic viewers. The slower and mor
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </script>
   <script src="scripts/script.js"></script>
-
+</div><!--container div-->
 </body>
 </html>
